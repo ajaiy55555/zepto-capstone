@@ -47,3 +47,5 @@ internet connection.
   strictly higher rating; keep the row if fewer than 3 do). The pandas equivalent
   uses `groupby("category_name")["rating"].rank(...)` to reproduce the same result
   without SQL.
+
+Author: Ajay Kumar
