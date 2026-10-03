@@ -22,3 +22,7 @@ zepto-capstone/
 ## Git workflow
 
 Each module was developed on its own feature branch, committed to at least twice, and merged into `main`.
+
+## Where to start
+
+Read `data_pipeline/README.md` first, then `analytics/README.md`, then `support_assistant/README.md`.
