@@ -19,8 +19,6 @@ Request that triggers retrieval:
 ```
 Response:
 ```json
-PASTE RESPONSE 1 HERE
-```
 {
   "answer": "Based on the retrieved context: Grocery and perishable items may be reported for a return within 24 hours of delivery if damaged, spoiled, or incorrect; non-perishable packaged items may be returned within 7 days of delivery in unop",
   "sources": [
@@ -30,17 +28,22 @@ PASTE RESPONSE 1 HERE
   ],
   "confidence": 1.0
 }
+```
 
+Request that does not trigger retrieval:
+```json
+{"query": "Who won the cricket match?"}
 ```
 Response:
 ```json
-PASTE RESPONSE 2 HERE
-```
 {
   "answer": "I can only answer questions about Zepto policies right now.",
   "sources": [],
   "confidence": 1.0
 }
+```
+
+## Docker
 
 ```bash
 docker build -t zepto-support .
